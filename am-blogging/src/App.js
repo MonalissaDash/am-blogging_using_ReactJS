@@ -12,9 +12,8 @@ import NotFoundPage from './pages/NotFoundPages';
 function App() {
   return (
     <>
-     <div className="Image">Test</div>
      <Router>
-     <div className="App">
+     <div className="App" >
      <NavBar/>
      <div id='page-body'>
      <Switch>

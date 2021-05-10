@@ -1,3 +1,4 @@
+import '../App.css'
 const articles = [
     {
         name: 'learn-react',
@@ -71,7 +72,8 @@ const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    },  
+    }, 
+
 ];
 
 export default articles;

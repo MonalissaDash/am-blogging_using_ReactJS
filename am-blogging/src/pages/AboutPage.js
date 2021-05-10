@@ -1,12 +1,11 @@
 import React from 'react';
+import '../App.css'
 
 const AboutPage =()=>(
     <>
-    <h1>About</h1>
-    <p>AboutPage
-    </p>
-
-    <p>Please contact me @ monalissadash@gmail.com</p>
+    <div className="AboutPage">
+    <h1 id ="about">About</h1>
+    </div>
     </>
 );
 export default AboutPage;

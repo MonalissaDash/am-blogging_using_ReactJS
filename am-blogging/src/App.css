@@ -1,15 +1,149 @@
 .Image {
   text-align: center;
   background-color: rgb(74, 146, 74);
-  height:100px;
-  width:100px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  
+}
+#page-body {
+  max-width: 100%;
+  margin: auto;
+  background-color:rgb(161, 152, 161);
+  color:black;
+  /* padding-top: 64px; */
 }
 
-.App {
+p {
+  text-indent: 200px;
+  text-align:center;
+  letter-spacing: 3px;
+}
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h3, h4 {
+  margin-bottom: 0;
+}
+
+.nav {
+  border-bottom: 1px solid rgb(12, 12, 12);
+  text-align: right;
+  position: relative;
+  float: left;
+  height: 80px;
+  top: 0;
+  background:#eedeea;
+}
+.left {
+  width: 10%;
+  }
+.right {
+  width: 90%;
+  }
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 16px 16px;
+  
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
+
+.Article-list-page{
+  background-color: lightcoral;
+}
+.article-list-item {
+  text-decoration: none;
+  color:rgb(2, 6, 48);
+  padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid black;
+  
+}
+#sperator{
+  border: 4px solid black;
+}
+
+.HomePage{
+  border: 1px solid black;
+  padding: 10px;
+  width:fit-content;
+  height: 200px;
+  text-align:left;
+  position:relative;
+  background-color:lightblue;
+}
+.AboutPage{
+  border: 1px solid black;
+  color: rgb(255, 251, 8);
+  display: flex;
+  padding: 10px;
+  width:100%;
+  height:100%;
+  text-align:justify;
+  position:fixed;
+  background-color: #8e7bbd;
+}
+#about{
   text-align: center;
- 
-}
+  padding-left: 550px;
 
+}
+.Art-Gallery{
+  border: 1px solid black;
+  color: blueviolet;
+  display: flex;
+  padding: 10px;
+  width:100%;
+  height:100%;
+  text-align:justify;
+  position:fixed;
+  background-color: #fbfd71;
+}
+.App{
+  background-color:black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
